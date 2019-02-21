@@ -27,6 +27,7 @@ label {
 form select, textarea {
     background-color: rgb(121, 157, 175);
     display: inline;
+    width: 200px;
 }
 
 p {
@@ -62,9 +63,11 @@ form input[type="radio"], form input[type="checkbox"] {
 form label[for*="male"] {
     display:inline;
 }
+form label[for="consent"]{
+    display: inline;
+}
 
-form label[for="consent"] {
-    display: block;
-    margin-bottom: 5px;
-
-
+form input[type="checkbox"] {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
