@@ -1,0 +1,104 @@
+#main {
+    background-color: lightgray;
+    width: 620px;
+    height: 620px;
+    position: relative;
+
+}
+
+.q {
+    width:200px;
+    height: 200px;
+    position: absolute;
+}
+
+#q1 {
+    background-color:red;
+    top: 5px;
+    left: 5px;
+}
+
+#q2 {
+    background-color:rgb(4, 0, 255);
+    top: 5px;
+    left: 210px;
+}
+
+#q3 {
+    background-color: green;
+    top: 5px;
+    left: 415px;
+}
+
+#q4 {
+    background-color:yellow;
+    top: 210px;
+    left: 5px;
+}
+#q5 {
+    background-color: black;
+    top: 210px;
+    left: 210px;
+}
+
+#q6 {
+    background-color:rgb(223, 155, 28);
+    top: 210px;
+    left: 415px;
+}
+#q7 {
+    background-color:purple;
+    top: 415px;
+    left: 5px;
+}
+#q8 {
+    background-color:grey;
+    top: 415px;
+    left: 210px;
+}
+#q9 {
+    background-color:pink;
+    top: 415px;
+    left: 415px;
+}
+
+.round {
+    position: absolute;
+    height:100px;
+    width: 100px;
+    border-radius: 100%;
+    border:black;
+    border-style: solid;
+    top: 25%;
+    left: 25%;
+}
+#r1 {
+    background-color:pink;
+}
+
+#r2 {
+    background-color: gray;
+}
+
+#r3 {
+    background-color: purple;
+}
+
+#r4 {
+    background-color:green;
+}
+#r5 {
+    background-color: red;
+}
+#r6 {
+    background-color: blue;
+}
+#r7 {
+    background-color:orange;
+}
+#r8 {
+    background-color:yellow;
+}
+#r9 {
+    background-color:black;
+}
