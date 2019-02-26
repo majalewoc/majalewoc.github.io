@@ -1,0 +1,78 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+}
+
+
+/* header {
+    display: flex;
+} */
+header {
+ height: 50vh;
+ background-image: url("../img/man-1.jpg");
+ background-size: cover;
+ position: relative;
+ width: auto;
+    
+}
+
+#text  {
+    text-align: center;
+    height:70vh ;
+    font-size: 0.5em;
+    position: absolute;
+    top: 55vh;
+    width: 100%;
+}
+ 
+h2 {
+    font-size: 3.5em;
+    margin-top: 0.5em;
+}
+
+
+/* Change header min 992 */
+@media (min-width: 992px) {
+
+ header {
+    height: 70vh;
+    background-image: url("../img/man-2.jpg");
+    background-size: cover;
+    position: relative;
+    width: 100%;
+}
+
+#text  {
+    text-align: left;
+    height:70vh ;
+    font-size: 0.8vw;
+    position: absolute;
+    top: 5vh;
+    width: 45%;
+    left: 60%;
+    color: white;
+} 
+}
+
+/* Change header min 1170 */
+@media (min-width: 1170px) {
+
+    header {
+       height: 100vh;
+       background-image: url("../img/man-1.jpg");
+       background-size: cover;
+       position: relative;
+       width: 100%;
+   }
+   
+   #text  {
+       text-align: left;
+       height:70vh ;
+       font-size: 0.8vw;
+       position: absolute;
+       top: 50vh;
+       width: 55%;
+       left: 5%;
+       color: white;
+   } 
+   }
