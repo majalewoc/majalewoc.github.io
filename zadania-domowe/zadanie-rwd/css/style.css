@@ -6,9 +6,7 @@ body {
     margin: 0;
 }
 
-/* header {
-    display: flex;
-} */
+
 header {
  height: 50vh;
  background-image: url("../img/man-1.jpg");
