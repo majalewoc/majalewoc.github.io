@@ -1,0 +1,44 @@
+*{
+
+    color:rgb(168, 100, 100);
+    font-size: 70px;
+    margin: 0;
+}
+
+
+
+#background {
+
+    background-color: rgb(110, 6, 124);
+    height:200px ;
+    width: 200px;
+    /* position: absolute;
+    left: 40vw;
+    top: 20vw; */
+    text-align: center;
+   
+}
+#background::after {
+content: "10";
+animation: moja_animacja 11s infinite;
+
+
+}
+
+
+@keyframes moja_animacja
+    {
+      0% { content: "10"; }
+      10% { content: "9"; }
+      20% { content: "8";}
+      30% { content: "7"; }
+      40% { content: "6"; }
+      50% { content: "5"; }
+      60% { content: "4"; }
+      70% { content: "3"; }
+      80% { content: "2"; }
+      90% { content: "1"; }
+      100% { content: "I love CSS"; }
+
+     
+    } 
